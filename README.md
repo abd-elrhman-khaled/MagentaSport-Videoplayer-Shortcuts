@@ -1,6 +1,6 @@
 # Magentasport-Shortcuts
 
-Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the MagentaSport web player on `magentasport.de` (Video on Demand (VOD) only, **no live streams**).
+Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the MagentaSport web player on `magentasport.de` (Video on Demand (VOD) only, **no live streams**). Tested with Moziall Firefox.
 
 ## What you get
 
