@@ -11,7 +11,7 @@ Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the Magent
 * **Space** → **Play/Pause**
 * Visual on-screen toast shows what happened (e.g., “+10s”)
 
-> Works on **static/on-demand videos** (finite duration). Live/DVR streams aren’t supported.
+> Works on **static/on-demand videos** (finite duration).
 
 ---
 
