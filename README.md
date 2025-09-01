@@ -1,6 +1,7 @@
 # Magentasport-Shortcuts
 
-Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the MagentaSport web player on `magentasport.de`. Tested with Mozilla Firefox.
+Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the MagentaSport web player on `magentasport.de`. Tested with Mozilla Firefox. Also available via Greasy Fork: [MagentaSport Player Keyboard Shortcuts on Greasy Fork](https://greasyfork.org/de/scripts/548039-magentasport-player-keyboard-shortcuts)
+
 
 ## What you get
 
