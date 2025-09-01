@@ -9,6 +9,8 @@ Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the Magent
 * **U** → jump **60s back**
 * **O** → jump **60s forward**
 * **Space** → **Play/Pause**
+* **S** → **slow down** (steps: 1× → 0.5× → 0.25× → 0.1×; Minimum 0.1×)
+* **D** → **speed up** (×2, max. 16×)
 * Visual on-screen toast shows what happened (e.g., “+10s”)
 
 > Works on **static/on-demand videos** (finite duration).
