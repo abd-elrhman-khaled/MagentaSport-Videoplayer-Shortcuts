@@ -36,7 +36,7 @@ Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the Magent
 
 ## Usage
 
-* Use the keys **J/L/U/O/Space** while the video is focused (mouse over the player is enough).
+* Use the keys **J/L/U/O/Space/S/D** while the video is focused (mouse over the player is enough).
 * The script **ignores typing** inside inputs/textareas.
 * Space prevents page-scroll while toggling play/pause.
 
@@ -70,7 +70,6 @@ Open the script and adjust:
 
 * **No reaction**:
   – Check the script is enabled and matches `https://www.magentasport.de/*`
-  – Make sure you’re on a **VOD** (not live)
   – Open DevTools → **Console** to see errors
   – Temporarily disable other video-shortcut extensions
 * **Conflicts with site keys**: Only **Space** uses `preventDefault`; if you want to fully override others, you can also call `e.preventDefault()` for J/L/U/O.
@@ -97,4 +96,4 @@ MIT
 
 ## Changelog
 
-* **1.0.0** – Initial release (J/L/U/O/Space for MagentaSport VOD).
+* **1.0.0** – Initial release (J/L/U/O/Space/S/D for MagentaSport Videoplayer).
